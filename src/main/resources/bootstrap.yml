@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jackalope
+spring.cloud.vault:
+  scheme: http
+  host: localhost
+  port: 8200
+  authentication: token
+  token: 00000000-0000-0000-0000-000000000000
